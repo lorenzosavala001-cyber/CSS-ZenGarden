@@ -1,1 +1,23 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+body {
+    text-align: center;
+}
+.intro {
+    color: rgb(255, 255, 255);
+    justify-self: left;
+    text-align: left;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.page-wrapper {
+
+    background-image: url(titancockpit.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: fit-content;
+    height: 140vh;
+    background-position: center;
+}
+#zen-supporting .wrapper {
+    color: rgb(0, 0, 0);
+}

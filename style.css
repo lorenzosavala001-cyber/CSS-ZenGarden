@@ -7,17 +7,38 @@ body {
     justify-self: left;
     text-align: left;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
 }
 .page-wrapper {
-
     background-image: url(titancockpit.png);
     background-size:contain;
     background-repeat: no-repeat;
     width: fit-content;
-    height: 140vh;
     background-position: center;
+    height: 140vh;
+    display: flex;
 }
-#zen-supporting .wrapper {
+#zen-supporting {
+    display: flex;
+}
+.wrapper {
     color: rgb(0, 0, 0);
+}
+.summary {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start
+}
+[banner] {
+    align-content: center;
+    justify-content: center;
+}
+.participation {
+    display: flex;
+}
+.benefits {
+    display: flex;
+}
+.zen-resources {
+    font-size: small;
 }
